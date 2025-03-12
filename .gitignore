@@ -1,0 +1,38 @@
+# 🛑 Ignorar pastas e arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.env
+venv/
+.env
+.env.local
+
+# 🛑 Ignorar arquivos de banco de dados local
+instance/
+*.sqlite
+*.db
+*.sqlite3
+
+# 🛑 Ignorar dependências e caches
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🛑 Ignorar logs
+logs/
+*.log
+
+# 🛑 Ignorar arquivos de IDEs (VS Code, JetBrains, etc.)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# 🛑 Ignorar configurações do sistema operacional
+Thumbs.db
+*.bak
